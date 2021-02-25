@@ -1,16 +1,16 @@
-name: Open Matter Presentation Hub Site
-version: 1.1.2
-description: "Open Presentation Hub with Git Sync is designed to help create, publish, and share Markdown-based slides with the Reveal.js Presentation Plugin by Ole Vik. Includes the Bootstrap4 Open Matter theme."
-icon: arrows-alt
+name: Open Matter MultiCourse Hub Site
+version: 1.0.0
+description: "Grav Open MultiCourse Hub with Git Sync supports an open and collaborative environment for one or more courses, inside or outside of your current platform (e.g. LMS). Includes the new Bootstrap4 Open Matter theme."
+icon: university
 author:
  name: Hibbitts Design
  email: hello@hibbittsdesign.org
- url: https://hibbittsdesign.org
-homepage: https://github.com/hibbitts-design/grav-skeleton-open-matter-presentation-hub
-demo: https://demo.hibbittsdesign.org/grav-open-matter-presentation-hub/
-docs: https://learn.hibbittsdesign.org/openpresentationhub
-keywords: open, collaborative, git, presentation, fullscreen, slides, slideshow, reveal.js
-bugs: http://github.com/hibbitts-design/grav-skeleton-open-matter-presentation-hub/issues
+ url: http://hibbittsdesign.org
+homepage: https://github.com/hibbitts-design/grav-skeleton-course-hub
+demo: http://demo.hibbittsdesign.org/grav-open-matter-course-hub
+docs: http://learn.hibbittsdesign.org/coursehub
+keywords: open, collaborative, flexbible, git, responsive, basic, course, lms
+bugs: https://github.com/hibbitts-design/grav-skeleton-course-hub/issues
 license: MIT
 
 dependencies:
