@@ -13,10 +13,6 @@ on:
         description: 'Which Grav release to use'
         required: true
         default: 'latest'
-      admin:
-        description: 'Create also a package with Admin'
-        required: true
-        default: false
 
 jobs:
   build:
@@ -29,7 +25,6 @@ jobs:
         uses: getgrav/skeleton-builder@v1
         with:
           version: ${{ github.event.inputs.version || 'latest' }}
-          admin: ${{ github.event.inputs.admin || false }}
           exclude: README.md C* *bin/*
           filename_version: false
       - name: Upload packages to release
